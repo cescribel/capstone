@@ -1,0 +1,34 @@
+    /* Set the height of the whole page to 100% */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      /* Style the side navigation bar */
+      .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f0f0f0;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      /* Style the links inside the side navigation bar */
+      .sidenav a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+      }
+      /* Change the color of the active link */
+      .active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      /* Style the content area */
+      .main {
+        margin-left: 200px;
+        padding: 20px;
+      }
