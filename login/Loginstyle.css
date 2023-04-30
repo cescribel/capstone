@@ -160,3 +160,12 @@ a{color:inherit;text-decoration:none}
 	text-align: center;
 	color: aliceblue;
 }
+
+img{
+	margin-left: 25%;
+	height: 100px;
+	width: 200px;
+	border-radius: 20;
+	object-fit: fill;
+	background: red;
+  }
